@@ -7,6 +7,7 @@
     <title>Flavia Ini - Home</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Favicon -->
     <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -61,7 +62,7 @@
                                 <nav class="page_nav">
                                     <ul class="mainmenu">
 
-                                        <li class="lavel-1 " style="margin-bottom: 10%;"><a href="#sobremi"><span >Sobre mi</span></a>
+                                        <li class="lavel-1 " style="margin-bottom: 10%;"><a href="#sobremi"><span >Bienvenidos</span></a>
                                             <!-- with--drop slide--megamenu -->
                                           
                                         </li>
@@ -169,16 +170,15 @@
                 >
         
                     <!--Hero Item start-->
-                    <div class="hero-item-restaurant bg-image" data-bg="imgss/hero-principal/flavia-bluroscuro-01.jpg">
+                    <div class="hero-item-restaurant bg-image" data-bg="imgss/hero-principal/fotohome-1670X1080.jpg">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-12">
-        
                                     <!--Hero Content start-->
-                                    <div class="hero-content-4 left">
-                                        <h3>Bienvenidos<br> a mi web</h3>
-                                        <h4 class="theme-color" style="visibility: hidden;">Lorem, ipsum.</h4>
-                                        <a class="check-btn" href="#"> Ver más </a>
+                                    <div class="hero-content-4 left pl_lp--60">
+                                        <!-- <h3 style="font-size: 70px;">Bienvenidos<br> a mi cocina</h3>
+                                        <h4 class="theme-color" style="visibility: hidden;">Lorem, ipsum.</h4> -->
+                                        <a class="check-btn" href="#sobremi"> Ver más </a>
                                     </div>
                                     <!--Hero Content end-->
         
@@ -199,9 +199,9 @@
                         <div class="col-xl-4 col-lg-6 col-md-12">
                             <div class="about-inner authenthick-about pr--30">
                                 <div class="brook-section-title-restaurant text-left mb--50">
-                                    <h3 class="theme-color">Trayectoria</h3>
-                                    <div class="bkseparator--10"></div>
-                                    <h3 class="title">gastronómica</h3>
+                                    <!-- <h3 class="theme-color">Trayectoria</h3>
+                                    <div class="bkseparator--10"></div> -->
+                                    <h3 class="title">Bienvenidos a mi cocina</h3>
                                 </div>
                                 <p class="font-size-18 wow move-up"> Empecé a cocinar desde muy chiquitita.
                                     A decir verdad ni recuerdo desde cuando. <br>
@@ -288,9 +288,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="brook-section-title-restaurant text-center mb--50">
-                                <h3 class="theme-color">Recetas Instagram Tv</h3>
+                                <h3 class="theme-color">Cocinando Juntos</h3>
                                 <div class="bkseparator--10"></div>
-                                <h3 class="title">Miren que lindo!</h3>
+                                <h3 class="title">¡Gracias por acompañarme!</h3>
                             </div>
                             <ul class="nav product-tab-two justify-content-center">
                                 <li><a class="active" data-toggle="tab" href="#all">Desayunos</a></li>
@@ -1358,6 +1358,33 @@
                 }
             )(jQuery);
         });
+    </script>
+
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
     </script>
 
 </body>
