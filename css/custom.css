@@ -7,3 +7,45 @@
 	Note: This is custom css.
 
 **********************************************************************************/
+
+@media only screen and (max-width: 990px) {
+  #idk-wrap {
+    position: relative;
+    margin-bottom: 270px !important;
+  }
+
+  #lol-wat {
+    margin-top: 180px;
+  }
+
+  #image-idk {
+    background-image: none !important;
+  }
+
+  #lol-img {
+    background-image: none !important;
+    position: relative;
+  }
+
+  #thumb-arriba {
+    height: 250px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: url(/img/restaurant/home-restaurant-menus-starters-set.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+  }
+
+  #thumb-abajo {
+    height: 250px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: url(/img/restaurant/home-restaurant-menus-starters-set.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+  }
+}
