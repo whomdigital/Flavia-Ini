@@ -6578,6 +6578,9 @@ body.template-color-41 .text-color {
     .pl_lp--150 {
         padding-left: 150px
     }
+    .pl_lp--180 {
+        padding-left: 180px
+    }
     .pt_lp--150 {
         padding-top: 150px
     }
@@ -17132,7 +17135,7 @@ a:hover.hint--bottom::after {
 }
 
 .hero-content-4 h3 {
-    font-size: 100px;
+    font-size: 50px;
     line-height: 1.1;
     letter-spacing: 3px;
     font-weight: 900;
@@ -17143,28 +17146,28 @@ a:hover.hint--bottom::after {
 
 @media only screen and (min-width:1200px) and (max-width:1599px) {
     .hero-content-4 h3 {
-        font-size: 100px;
+        font-size: 50px;
         line-height: 1.1
     }
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .hero-content-4 h3 {
-        font-size: 100px;
+        font-size: 40px;
         line-height: 1.1
     }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .hero-content-4 h3 {
-        font-size: 60px;
+        font-size: 40px;
         line-height: 1.1
     }
 }
 
 @media only screen and (max-width:767px) {
     .hero-content-4 h3 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.1
     }
 }
@@ -25381,7 +25384,7 @@ body.loaded .page-loading {
 .messonry-button button span.filter-text {
     font-weight: 600;
     line-height: 1.58;
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
     -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
     -o-transition: all .3s cubic-bezier(.645, .045, .355, 1);
@@ -25474,6 +25477,9 @@ body.loaded .page-loading {
 @media only screen and (max-width:767px) {
     .messonry-button--2 button {
         margin-bottom: 18px
+    }
+    .messonry-button button span.filter-text {
+        font-size: 16px;
     }
 }
 
@@ -33006,10 +33012,10 @@ header.br_header.header-default.header-fixed {
 }
 
 .popup-mobile-manu .inner {
-    background: #000;
+    background: #fff;
     position: relative;
     width: 400px;
-    max-width: 80%;
+    max-width: 100%;
     height: 100%;
     text-align: left;
     -webkit-transition: all .3s;
@@ -33109,8 +33115,9 @@ header.br_header.header-default.header-fixed {
 
 .object-custom-menu>li {
     position: relative;
-    border-top: 1px solid transparent;
-    border-color: rgba(255, 255, 255, .15)
+    border-top: 2px solid black;
+    padding-top: 25px;
+    border-color: rgba(0, 0, 0, .07)
 }
 
 .object-custom-menu>li:first-child {
@@ -33125,8 +33132,8 @@ header.br_header.header-default.header-fixed {
 }
 
 .object-custom-menu>li a span {
-    font-size: 14px;
-    color: #999
+    font-size: 24px;
+    color: #000
 }
 
 .object-custom-menu>li.has-mega-menu>a::after {
