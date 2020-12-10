@@ -17135,7 +17135,7 @@ a:hover.hint--bottom::after {
 }
 
 .hero-content-4 h3 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.1;
     letter-spacing: 3px;
     font-weight: 900;
@@ -17146,28 +17146,28 @@ a:hover.hint--bottom::after {
 
 @media only screen and (min-width:1200px) and (max-width:1599px) {
     .hero-content-4 h3 {
-        font-size: 50px;
+        font-size: 60px;
         line-height: 1.1
     }
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .hero-content-4 h3 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.1
     }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .hero-content-4 h3 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.1
     }
 }
 
 @media only screen and (max-width:767px) {
     .hero-content-4 h3 {
-        font-size: 30px;
+        font-size: 27px;
         line-height: 1.1
     }
 }
