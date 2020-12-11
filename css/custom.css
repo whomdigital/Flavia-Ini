@@ -49,3 +49,13 @@
     z-index: 999;
   }
 }
+
+#herohome{
+  background-image: url(/imgss/hero-principal/fotohome-1670X1080.jpg);
+}
+
+@media only screen and (max-width: 990px) {
+  #herohome{
+    background-image: url(/imgss/hero-principal/foto-home-mobile.jpg);
+  } 
+}
