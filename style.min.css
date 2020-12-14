@@ -17170,6 +17170,9 @@ a:hover.hint--bottom::after {
         font-size: 27px;
         line-height: 1.1
     }
+    #recomendados{
+        font-size: 26px;
+    }
 }
 
 .hero-content-4 h4 {
