@@ -59,3 +59,13 @@
     background-image: url(/imgss/hero-principal/foto-home-mobile.jpg);
   } 
 }
+
+#superheader{
+  background-image: url(/imgss/super-encuentros/super-banner.jpg);
+}
+
+@media only screen and (max-width: 990px) {
+  #superheader{
+    background-image: url(/imgss/super-encuentros/super-mobile.jpg);
+  } 
+}

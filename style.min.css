@@ -16400,7 +16400,7 @@ a.hint--bottom.hint--white[aria-label]::before {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, .5)
+    color: #bc9464
 }
 
 a:hover.hint--top[class*=hint--]:after,
