@@ -69,3 +69,16 @@
     background-image: url(/imgss/super-encuentros/super-mobile.jpg);
   } 
 }
+
+@media only screen and (max-width: 420px){
+
+  #nover{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 421px){
+  #nover{
+    visibility: hidden;
+  }
+}
